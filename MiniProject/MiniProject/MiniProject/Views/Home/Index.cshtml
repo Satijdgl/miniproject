@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="jumbotron">
+    <h1>Attendance System</h1>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Add/Edit Attendance</h2>
+        <p>
+            <a class="btn btn-primary" @Html.ActionLink("Add", "Index", "Attendance")
+
+            </a>
+        </p>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Add New Subject</h2>
+
+        <p><a class="btn btn-primary" @Html.ActionLink("Add", "Index", "Subject")
+            </a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Add New Student</h2>
+
+        <p><a class="btn btn-primary" @Html.ActionLink("Add", "Index", "Student")
+</a></p>
+    </div>
+</div> 
